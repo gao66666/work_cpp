@@ -24,8 +24,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    src_pic/OIP-C.jpg \
-    src_pic/QQ_ico.png
+    ../../src_pic/OIP-C.jpg \
+    ../../src_pic/QQ_ico.png
 
 RESOURCES += \
     images.qrc

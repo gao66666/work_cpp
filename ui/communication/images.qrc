@@ -1,10 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>src_pic/QQ.jpg</file>
-        <file>src_pic/QQ_ico.png</file>
-        <file>src_pic/favicon.ico</file>
-        <file>src_pic/bg.gif</file>
-        <file>src_pic/bg2.gif</file>
-        <file>src_pic/reindeer.jpg</file>
+        <file>../../src_pic/QQ.jpg</file>
+        <file>../../src_pic/QQ_ico.png</file>
+        <file>../../src_pic/favicon.ico</file>
     </qresource>
 </RCC>
