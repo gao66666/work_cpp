@@ -3,7 +3,7 @@
 
 #include <QWidget>
 #include<QPainter>
-
+#include<chat.h>
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
@@ -19,9 +19,13 @@ class Widget : public QWidget
 
 public:
     Widget(QWidget *parent = nullptr);
+    chat *chat_widget;
     ~Widget();
 protected:
     //void paintEvent(QPaintEvent *event);
+
+private slots:
+    void on_pushButton_clicked();
 
 private:
     Ui::Widget *ui;

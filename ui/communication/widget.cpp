@@ -40,3 +40,12 @@ Widget::~Widget()
 //     painter.drawPixmap(QRect(140,50,90,90),pixmap);
 //     painter.end();
 // }
+
+void Widget::on_pushButton_clicked()
+{
+    chat_widget = new chat;
+    this->hide();
+    chat_widget->show();
+
+}
+

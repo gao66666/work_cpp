@@ -3,8 +3,11 @@
         <file>src_pic/QQ.jpg</file>
         <file>src_pic/QQ_ico.png</file>
         <file>src_pic/favicon.ico</file>
-        <file>src_pic/bg.gif</file>
-        <file>src_pic/bg2.gif</file>
-        <file>src_pic/reindeer.jpg</file>
+        <file>src_pic/friends.png</file>
+        <file>src_pic/message.png</file>
+        <file>src_pic/qq_space.png</file>
+        <file>src_pic/setting.png</file>
+        <file>src_pic/qq.svg</file>
+        <file>src_pic/insert.png</file>
     </qresource>
 </RCC>
