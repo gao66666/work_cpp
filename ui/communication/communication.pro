@@ -10,19 +10,23 @@ CONFIG += c++17
 
 SOURCES += \
     chat.cpp \
+    emoj.cpp \
     invite_join_group.cpp \
     main.cpp \
     new_friends_group.cpp \
+    temp_code.cpp \
     widget.cpp
 
 HEADERS += \
     chat.h \
+    emoj.h \
     invite_join_group.h \
     new_friends_group.h \
     widget.h
 
 FORMS += \
     chat.ui \
+    emoj.ui \
     invite_join_group.ui \
     new_friends_group.ui \
     widget.ui

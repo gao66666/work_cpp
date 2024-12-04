@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1013</width>
-    <height>567</height>
+    <width>1021</width>
+    <height>579</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,17 +17,29 @@
    <iconset resource="images.qrc">
     <normaloff>:/src_pic/QQ.jpg</normaloff>:/src_pic/QQ.jpg</iconset>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(234, 238, 255);</string>
+  </property>
   <widget class="QListWidget" name="listWidget">
    <property name="geometry">
     <rect>
      <x>60</x>
      <y>-10</y>
-     <width>201</width>
-     <height>581</height>
+     <width>191</width>
+     <height>601</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 251, 251);</string>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+   </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pushButton_message">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -53,7 +65,7 @@
     </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_4">
+  <widget class="QPushButton" name="pushButton_setting">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -90,7 +102,7 @@
      <x>-10</x>
      <y>-10</y>
      <width>71</width>
-     <height>581</height>
+     <height>601</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -104,13 +116,21 @@
    <property name="geometry">
     <rect>
      <x>260</x>
-     <y>330</y>
-     <width>781</width>
-     <height>241</height>
+     <y>350</y>
+     <width>532</width>
+     <height>231</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 238, 255);</string>
+   </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="pushButton_qqSpace">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -163,35 +183,13 @@ background:transparent;</string>
     </size>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="label_showName">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>10</y>
-     <width>41</width>
+     <x>250</x>
+     <y>0</y>
+     <width>761</width>
      <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border-image: url(:/src_pic/qq.svg);
-
-border-width:0px;
-border-radius:15px;
-border-style:solid;
-border-color: rgb(0, 0, 0);
-</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_friend">
-   <property name="geometry">
-    <rect>
-     <x>600</x>
-     <y>10</y>
-     <width>71</width>
-     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -199,84 +197,56 @@ border-color: rgb(0, 0, 0);
      <pointsize>15</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 238, 255);</string>
+   </property>
    <property name="text">
     <string/>
    </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_friend_delete">
-   <property name="geometry">
-    <rect>
-     <x>887</x>
-     <y>10</y>
-     <width>121</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>13</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border-width:0px;
-border-radius:13px;
-border-style:solid;
-background-color: rgb(255, 255, 255);
-</string>
-   </property>
-   <property name="text">
-    <string>删除好友</string>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_friend_invite">
-   <property name="geometry">
-    <rect>
-     <x>890</x>
-     <y>80</y>
-     <width>111</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>13</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border-width:0px;
-border-radius:13px;
-border-style:solid;
-background-color: rgb(255, 255, 255);
-</string>
-   </property>
-   <property name="text">
-    <string>邀请加入群聊</string>
-   </property>
-  </widget>
-  <widget class="QListWidget" name="listWidget_group">
+  <widget class="QListWidget" name="listWidget_group_member">
    <property name="geometry">
     <rect>
      <x>790</x>
-     <y>330</y>
-     <width>231</width>
-     <height>241</height>
+     <y>350</y>
+     <width>311</width>
+     <height>231</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 238, 255);</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_del_group_mem">
    <property name="geometry">
     <rect>
-     <x>960</x>
-     <y>540</y>
+     <x>970</x>
+     <y>550</y>
      <width>51</width>
-     <height>21</height>
+     <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+border:none;</string>
+   </property>
    <property name="text">
-    <string>删除</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::EditDelete"/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>16</height>
+    </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_insert">
+  <widget class="QPushButton" name="pushButton_add">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -302,20 +272,153 @@ background-color: rgb(255, 255, 255);
     </size>
    </property>
   </widget>
+  <widget class="QListWidget" name="listWidget_chatbox">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>40</y>
+     <width>771</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;</string>
+   </property>
+   <property name="sortingEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sendEmoj">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>330</y>
+     <width>51</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+background-color:rgba(0,0,0,0);
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/src_pic/emoj.png</normaloff>:/src_pic/emoj.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>19</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sendFile">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>330</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/src_pic/file.png</normaloff>:/src_pic/file.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>17</width>
+     <height>17</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sendPic">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>330</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/src_pic/pic.png</normaloff>:/src_pic/pic.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>17</width>
+     <height>23</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_chatbox_bg">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>330</y>
+     <width>771</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 238, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>360</y>
+     <width>281</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+   </property>
+  </widget>
+  <zorder>label_chatbox_bg</zorder>
+  <zorder>listWidget_chatbox</zorder>
   <zorder>label_2</zorder>
   <zorder>listWidget</zorder>
-  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_setting</zorder>
   <zorder>textEdit</zorder>
-  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_qqSpace</zorder>
   <zorder>pushButton_group</zorder>
-  <zorder>pushButton</zorder>
-  <zorder>label</zorder>
-  <zorder>label_friend</zorder>
-  <zorder>pushButton_friend_delete</zorder>
-  <zorder>pushButton_friend_invite</zorder>
-  <zorder>listWidget_group</zorder>
+  <zorder>pushButton_message</zorder>
+  <zorder>label_showName</zorder>
+  <zorder>listWidget_group_member</zorder>
+  <zorder>pushButton_add</zorder>
+  <zorder>pushButton_sendFile</zorder>
+  <zorder>pushButton_sendPic</zorder>
+  <zorder>pushButton_sendEmoj</zorder>
   <zorder>pushButton_del_group_mem</zorder>
-  <zorder>pushButton_insert</zorder>
+  <zorder>tableWidget</zorder>
  </widget>
  <resources>
   <include location="images.qrc"/>

@@ -6,6 +6,7 @@ new_friends_group::new_friends_group(QWidget *parent)
     , ui(new Ui::new_friends_group)
 {
     ui->setupUi(this);
+
 }
 
 new_friends_group::~new_friends_group()

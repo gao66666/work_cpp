@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>QQ</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images.qrc">
+    <normaloff>:/src_pic/QQ.jpg</normaloff>:/src_pic/QQ.jpg</iconset>
   </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
@@ -48,6 +52,9 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="placeholderText">
+    <string>         输入好友账号</string>
+   </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_2">
    <property name="geometry">
@@ -58,8 +65,13 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="placeholderText">
+    <string>    输入需要创建的群号</string>
+   </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections/>
 </ui>

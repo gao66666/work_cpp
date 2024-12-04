@@ -17,7 +17,7 @@
    <iconset resource="images.qrc">
     <normaloff>:/src_pic/QQ.jpg</normaloff>:/src_pic/QQ.jpg</iconset>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="Button_login">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -76,7 +76,7 @@ color: white;</string>
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="pushButton_register">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -92,7 +92,7 @@ color: white;</string>
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="lineEdit_id">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -108,7 +108,11 @@ color: white;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgba(0, 0, 0);
-border:none;</string>
+border:none;
+border-width:0px;
+border-radius:8px;
+border-style:solid;
+</string>
    </property>
    <property name="text">
     <string/>
@@ -117,7 +121,7 @@ border:none;</string>
     <string>          输入QQ 账号</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_3">
+  <widget class="QLineEdit" name="lineEdit_password">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -136,7 +140,11 @@ border:none;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgba(0, 0, 0);
-border:none;</string>
+border:none;
+border-width:0px;
+border-radius:8px;
+border-style:solid;
+</string>
    </property>
    <property name="inputMethodHints">
     <set>Qt::InputMethodHint::ImhHiddenText|Qt::InputMethodHint::ImhNoAutoUppercase|Qt::InputMethodHint::ImhNoPredictiveText|Qt::InputMethodHint::ImhSensitiveData</set>
@@ -169,6 +177,29 @@ border-color: rgb(255, 255, 255);
     <string/>
    </property>
   </widget>
+  <widget class="QLabel" name="label_back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>341</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/src_pic/QQ_back.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_back</zorder>
+  <zorder>Button_login</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>pushButton_register</zorder>
+  <zorder>lineEdit_id</zorder>
+  <zorder>lineEdit_password</zorder>
+  <zorder>label</zorder>
  </widget>
  <resources>
   <include location="images.qrc"/>

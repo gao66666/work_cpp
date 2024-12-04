@@ -25,9 +25,13 @@ protected:
     //void paintEvent(QPaintEvent *event);
 
 private slots:
-    void on_pushButton_clicked();
+
+    void on_Button_login_clicked();
+
+    void on_pushButton_register_clicked();
 
 private:
     Ui::Widget *ui;
+
 };
 #endif // WIDGET_H
