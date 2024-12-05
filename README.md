@@ -73,7 +73,7 @@
 |      |          |           |
 
 
-<center>表4：user_base</center>
+<center>表4：user_info</center>
 
 | id   | user_id | user_name | user_password |user_icon_path |
 | ---- | ------- | ------------- | ------------- | ------------- |
