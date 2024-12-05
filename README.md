@@ -54,11 +54,11 @@
 
 
 
-<center>表1：user_baseinfo</center>
+<center>表1：user_friend</center>
 
-| id   | user_id | user_password | user_name | user_icon_path | friend_id |
-| ---- | ------- | ------------- | --------- | -------------- | --------- |
-|      |         |               |           |                |           |
+| id   | user_id | friend_id |
+| ---- | ------- || ---------|
+|      |         |           |
 
 <center>表2：user_group</center>
 
@@ -71,4 +71,11 @@
 | id   | group_id | member_id |
 | ---- | -------- | --------- |
 |      |          |           |
+
+
+<center>表4：user_base</center>
+
+| id   | user_id | user_name | user_password |user_icon_path |
+| ---- | ------- | ------------- | ------------- | ------------- |
+|      |         |          |
 
