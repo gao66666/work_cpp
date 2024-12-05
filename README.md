@@ -59,23 +59,35 @@
 | id   | user_id | friend_id |
 | ---- | ------- | ---------|
 |      |         |           |
+涉及的功能
+1.添加好友
+2. 删除好友
 
 <center>表2：user_group</center>
 
 | id   | user_id | group_id |
 | ---- | ------- | -------- |
 |      |         |          |
+涉及的功能
+1. 创建群聊
+2. 删除群聊
 
 <center>表3：group_info</center>
 
 | id   | group_id | member_id |
 | ---- | -------- | --------- |
 |      |          |           |
-
+涉及的功能
+1. 邀请好友加入群聊
+2. 将好友移出群聊
 
 <center>表4：user_info</center>
 
 | id   | user_id | user_name | user_password |user_icon_path |
 | ---- | ------- | ------------- | ------------- | ------------- |
 |      |         |          |
-
+涉及的功能
+1. 注册
+2. 修改密码
+3. 修改名称
+4. 上传图像
