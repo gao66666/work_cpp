@@ -57,7 +57,7 @@
 <center>表1：user_friend</center>
 
 | id   | user_id | friend_id |
-| ---- | ------- || ---------|
+| ---- | ------- | ---------|
 |      |         |           |
 
 <center>表2：user_group</center>
