@@ -58,7 +58,7 @@
 | user_id | user_name | user_password | user_icon_base64 |
 | ------- | --------- | ------------- | ---------------- |
 |         |           |               |                  |
-
+primary_key:(user_id);
 
 涉及的功能
 1. 注册
@@ -74,8 +74,7 @@
 | group_id | group_name |
 | -------- |  --------- |
 |          |            |
-
-
+primary_key:(group_id);
 涉及的功能
 1. 群聊创建
 2. 群聊删除
