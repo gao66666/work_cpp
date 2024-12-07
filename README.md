@@ -95,7 +95,7 @@ primary_key:(user_id,friend_id);
 
 
 ------
-<center>表4：group_members</center>
+<center>表4：group_member</center>
 
 | id   | group_id | member_id |
 | ---- | -------- | --------- |
