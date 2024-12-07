@@ -87,12 +87,11 @@
 | id   | user_id | friend_id |
 | ---- | ------- | --------- |
 |      |         |           |
-
+primary_key:(user_id,friend_id);
 
 涉及的功能
 1. 添加好友
 2. 删除好友
-
 
 
 ------
@@ -101,7 +100,7 @@
 | id   | group_id | member_id |
 | ---- | -------- | --------- |
 |      |          |           |
-
+primary_key:(group_id,member_id);
 
 涉及的功能
 1. 邀请好友加入群聊
