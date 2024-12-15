@@ -73,7 +73,7 @@ primary_key:(user_id);
 
 | group_id | group_name |
 | -------- |  --------- |
-|          |            |
+
 primary_key:(group_id);
 涉及的功能
 1. 群聊创建
