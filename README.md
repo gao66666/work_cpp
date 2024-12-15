@@ -83,9 +83,9 @@ primary_key:(group_id);
 ------
 <center>表3：user_friend</center>
 
-| id   | user_id | friend_id |
-| ---- | ------- | --------- |
-|      |         |           |
+| id   | user_id | friend_id | team |
+| ---- | ------- | --------- |      |
+|      |         |           |      |
 primary_key:(user_id,friend_id);
 
 涉及的功能
